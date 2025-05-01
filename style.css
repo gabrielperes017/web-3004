@@ -1,4 +1,4 @@
-#container{
+#container{/* class pode ser usado varias vezes*/
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
@@ -6,11 +6,20 @@
 
     background-color: silver;
 }
-.caixa{
+.caixa{/*id: so pode ser usado 1x*/
     width: 300px;
     background-color: black;
     color: aliceblue;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
+}
+
+
+img { /*tag: é o controle de*/
+    max-width: 55%;
+    max-height: 55%;
+    width: auto;
+    height: auto;
+
 }
